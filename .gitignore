@@ -1,0 +1,10 @@
+# Fichiers spécifiques à R
+.Rhistory
+.RData
+.Rproj.user
+.Ruserdata
+*.Rproj
+
+# Dossiers à ignorer
+data/
+outputs/
