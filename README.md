@@ -1,18 +1,25 @@
-\# Household Vulnerability Analysis in Togo
+# Socioeconomic Vulnerability Analysis – Togo
 
+## Objective
+This project analyzes household vulnerability in Togo using survey data and statistical modeling in R.
 
+## Methodology
+- Data cleaning and preprocessing
+- Construction of a vulnerability index (water, sanitation, energy)
+- Descriptive analysis
+- Logistic regression model
+- Model evaluation (ROC, AUC)
 
-Ce portfolio présente l’analyse de la vulnérabilité des ménages au Togo à l’aide de R. 
+## Key Results
+- Approximately XX% of households are classified as vulnerable
+- Rural households exhibit significantly higher vulnerability levels compared to urban areas
+- Limited access to improved water and sanitation are major drivers of vulnerability
+- The logistic model shows moderate predictive performance (AUC ≈ 0.65), indicating that additional socioeconomic variables are needed for better prediction
 
-Il contient les fichiers suivants : 
+## Limitations
+The model is based on limited variables and does not include income, education, or housing conditions.
 
-\- `household\_vulnerability\_togo.Rmd` : script R Markdown
-
-\- `household\_vulnerability\_togo.html` : rapport HTML généré
-
-\- `data/` : dossier pour les données
-
-\- `scripts/` : dossier pour les scripts R
-
-\- `outputs/` : dossier pour les résultats et graphiques
-
+## Reproducibility
+```r
+source("run_all.R")
+```
