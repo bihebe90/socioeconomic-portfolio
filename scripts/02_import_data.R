@@ -1,0 +1,1 @@
+donnees <- read_sav("data/donneesbrutes/BASE_SAN.sav")
