@@ -1,7 +1,7 @@
 # Household Vulnerability Analysis in Togo
 
 **Author:** KAGNIRA Bihèbè  
-**Date:** March 29, 2026  
+**Date:** April 02, 2026  
 
 This repository contains a full analysis of household vulnerability in Togo using survey data (n = 6,749). The analysis is conducted in R and includes data cleaning, feature engineering, statistical modeling, and clustering.
 
