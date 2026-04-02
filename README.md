@@ -31,3 +31,4 @@ This repository contains a full analysis of household vulnerability in Togo usin
 
 ```bash
 git clone https://github.com/bihebe90/portefeuille-socio-economique.git
+<!-- Déploiement forcé -->
